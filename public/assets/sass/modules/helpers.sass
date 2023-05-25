@@ -1,0 +1,138 @@
+@import '../variables.sass'
+@import 'webfonts.sass'
+body
+  font-family: 'Montserrat', sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: antialiased
+  font-smoothing: antialiased
+  .container
+    @media(min-width:1600px)
+      max-width: calc(1660px + calc(var(--bs-gutter-x) * .5))
+    @media(max-width:1599px) and (min-width:1400px)
+      max-width: 100%
+img
+  max-width: 100%
+  height: auto
+.bg--interior
+  overflow-x: hidden
+  @media(min-width:992px)
+    background-color: $lightBlueTwo
+.drag-none
+  user-drag: none
+  user-select: none
+.btn
+  outline: none
+  font-size: 20px
+  border-radius: 0
+  font-weight: 500
+  padding: 11px 22px 10px 22px
+  box-shadow: none !important
+  border: 2px solid transparent
+  line-height: 1.1
+  min-width: 167px
+  @media(max-width:1199px)
+    font-size: 18px
+  @media(max-width:767px)
+    font-size: 16px
+  @media(max-width:575px)
+    width: 100%
+  &.btn-primary
+    color: #fff
+    background: $primaryColor
+    border-color: $primaryColor
+    &:hover
+      background: #fff
+      color: $primaryColor
+      border-color: $primaryColor
+  &.btn-outline-primary
+    background: #fff
+    color: $primaryColor
+    border-color: $primaryColor
+    &:hover
+      color: #fff
+      background: $primaryColor
+      border-color: $primaryColor
+
+.title
+  &--main
+    font-size: 54px
+    line-height: 1.77
+    font-weight: 600
+    letter-spacing: 1.45px
+    @media(max-width:1399px)
+      font-size: 48px
+      line-height: normal
+    @media(max-width:1199px)
+      font-size: 42px
+    @media(max-width:991px)
+      font-size: 36px
+    @media(max-width:767px)
+      font-size: 32px
+    @media(max-width:575px)
+      font-size: 28px
+  &--section 
+    font-size: 40px
+    font-weight: 600
+    line-height: 1.5
+    @media(max-width:1399px)
+      font-size: 38px
+    @media(max-width:1199px)
+      font-size: 34px
+    @media(max-width:991px)
+      font-size: 30px
+    @media(max-width:767px)
+      font-size: 26px
+    @media(max-width:575px)
+      font-size: 22px
+    span 
+      color: $primaryColor
+  &--block 
+    font-size: 18px
+    font-weight: 400
+    @media(max-width:767px)
+      font-size: 16px
+  a 
+    color: #000
+    text-decoration: none
+    transition: .3s ease-out
+    &:hover
+      color: $primaryColor
+  &.c-white
+    color: #fff
+    a 
+      color: #fff
+      &:hover
+        color: $primaryColor
+
+.subtitle
+  font-size: 20px
+  font-weight: 500
+  color: $primaryColor
+  @media(max-width:1199px)
+    font-size: 18px
+  @media(max-width:767px)
+    font-size: 16px
+
+.paragraph
+  color: #000
+  font-size: 17px
+  margin-bottom: 20px
+  line-height: 1.7
+  @media(max-width:1199px)
+    font-size: 17px
+  @media(max-width:767px)
+    font-size: 16px
+  &.c-white
+    color: #fff
+.owl-carousel
+  .owl-dots
+    margin-top: 44px
+    text-align: center
+    .owl-dot
+      width: 7px
+      height: 7px
+      margin-right: 18px
+      background-color: $gray
+      border-radius: 50%
+      &.active
+        background-color: $primaryColor

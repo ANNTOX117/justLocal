@@ -1,0 +1,13 @@
+- Traducir la pagina.
+- mostrar compañias por cuidades y por provincia.
+- en el homepage faltan las reviews.
+- verificacion de usuario.
+- about us in admin
+- contact in admin
+- fix carrusel 
+- translation
+
+- cartegories add by site.
+- Accion -> change and find another string.
+- admin user can login as a company.
+- agregar ciudad y pais en el footer de cada compañia.

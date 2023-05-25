@@ -1,0 +1,26 @@
+#sortable { 
+    list-style-type: none;
+    margin: 0; padding: 0;
+    width: 70%;
+}
+#sortable li { 
+    margin: 0 3px 3px 3px;
+    padding: 0.4em;
+}
+#sortable li span { 
+    position: absolute;
+    margin-left: -1.3em;
+}
+#imagePreview{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+ul#sortable > li > img.img-banner-admin{
+    max-width: 70px;
+    max-height: 70px;
+}
+
+span i:hover {
+    cursor: pointer;
+}
